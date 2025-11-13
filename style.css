@@ -1,0 +1,190 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b0c10;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  color: #66fcf1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1f2833;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #66fcf1;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu li a {
+  color: #c5c6c7;
+  font-weight: 500;
+}
+
+.menu li a:hover {
+  color: #66fcf1;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-cv {
+  background-color: #45a29e;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-cv:hover {
+  background-color: #66fcf1;
+  color: #000;
+}
+
+/* ======== SECCIÓN HERO ======== */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+  gap: 2.5rem;
+  background-color: #0b0c10;
+}
+
+/* --- FOTO --- */
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.foto img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;  /* tamaño máximo */
+  border-radius: 20px;
+  border: 3px solid #45a29e;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(102, 252, 241, 0.3);
+}
+
+/* --- TEXTO --- */
+.texto {
+  max-width: 600px;
+  text-align: left;
+}
+
+.resaltado {
+  color: #66fcf1;
+}
+
+.texto p {
+  color: #c5c6c7;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.botones {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-azul {
+  background-color: #45a29e;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-azul:hover {
+  background-color: #66fcf1;
+  color: #000;
+}
+
+.btn-negro {
+  background-color: #1f2833;
+  border: 1px solid #45a29e;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-negro:hover {
+  background-color: #45a29e;
+}
+
+/* ======== SECCIONES ======== */
+.contenido {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills li {
+  background-color: #1f2833;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #45a29e;
+  color: #66fcf1;
+  font-weight: 600;
+}
+
+.contacto-mail {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #66fcf1;
+  font-weight: bold;
+}
+
+.contacto-mail:hover {
+  text-decoration: underline;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: #1f2833;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #c5c6c7;
+}
